@@ -7,12 +7,12 @@
   display: flex;
 }
 
-.priorities-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .priorities-item {
   width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .priorities-header {

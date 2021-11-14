@@ -20,11 +20,11 @@
 
 .icon-close {
   transition: fill var(--transition-function);
-}
 
-.close-btn:hover .icon-close,
-.close-btn:focus .icon-close {
-  fill: var(--accent-color);
+  .close-btn:hover &,
+  .close-btn:focus & {
+    fill: var(--accent-color);
+  }
 }
 
 .callback-form {
@@ -84,10 +84,10 @@
   outline: none;
   cursor: pointer;
   transition: border var(--transition-function);
-}
 
-.callback-form-input:focus {
-  border: 1px solid var(--accent-color);
+  &:focus {
+    border: 1px solid var(--accent-color);
+  }
 }
 
 .callback-form-input:focus + .callback-icon {

@@ -10,8 +10,8 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-}
 
-.logo-web {
-  color: var(--accent-color);
+  &-web {
+    color: var(--accent-color);
+  }
 }

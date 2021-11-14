@@ -23,11 +23,11 @@
   color: var(--primary-text-color);
 
   transition: color var(--transition-function);
-}
 
-.contacts-link:hover,
-.contacts-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .contact-icon {

@@ -96,8 +96,7 @@ img {
   transition: color var(--transition-function);
 }
 
-.nav-link:hover,
-.nav-link:focus {
+.nav-link:hover, .nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -139,8 +138,7 @@ img {
   transition: color var(--transition-function);
 }
 
-.contacts-link:hover,
-.contacts-link:focus {
+.contacts-link:hover, .contacts-link:focus {
   color: var(--accent-color);
 }
 
@@ -391,14 +389,13 @@ img {
   transition: background-color var(--transition-function);
 }
 
+.social-link:hover, .social-link:focus {
+  background-color: var(--accent-color);
+}
+
 .social-icon {
   fill: currentColor;
   transition: fill var(--transition-function);
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
 }
 
 .social-link:hover .social-icon,
@@ -511,8 +508,7 @@ img {
   transition: background-color var(--transition-function);
 }
 
-.footer-link:hover,
-.footer-link:focus {
+.footer-link:hover, .footer-link:focus {
   background-color: var(--accent-color);
 }
 
@@ -586,12 +582,12 @@ header {
   display: flex;
 }
 
-.priorities-item:not(:last-child) {
-  margin-right: 30px;
-}
-
 .priorities-item {
   width: 270px;
+}
+
+.priorities-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .priorities-header {
@@ -740,8 +736,7 @@ header {
   transition: border var(--transition-function);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client-link:hover, .client-link:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -772,6 +767,10 @@ header {
   transition: color var(--transition-function);
 }
 
+.address-map:hover, .address-map:focus {
+  color: var(--accent-color);
+}
+
 .address-link {
   margin-bottom: 9px;
   display: block;
@@ -783,10 +782,7 @@ header {
   transition: color var(--transition-function);
 }
 
-.address-link:hover,
-.address-link:focus,
-.address-map:hover,
-.address-map:focus {
+.address-link:hover, .address-link:focus {
   color: var(--accent-color);
 }
 
@@ -841,8 +837,7 @@ header {
   transition: color var(--transition-function), background-color var(--transition-function), box-shadow var(--transition-function);
 }
 
-.filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:hover, .filter-btn:focus {
   color: var(--third-text-color);
   background-color: var(--accent-color);
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);

@@ -6,10 +6,10 @@
   width: 44px;
   height: 44px;
   margin-right: 10px;
-}
 
-.footer-icon-item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .footer-link {
@@ -23,11 +23,11 @@
   background-color: rgba(255, 255, 255, 0.1);
 
   transition: background-color var(--transition-function);
-}
 
-.footer-link:hover,
-.footer-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
 .footer-icon {

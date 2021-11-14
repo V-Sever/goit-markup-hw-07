@@ -8,10 +8,10 @@
 
 .what-we-do-item {
   position: relative;
-}
 
-.what-we-do-item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .description {

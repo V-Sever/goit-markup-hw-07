@@ -7,11 +7,11 @@
   letter-spacing: 0.02em;
 }
 
-.nav-item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-link {
+.nav-list__link {
   position: relative;
 
   padding-top: 32px;
@@ -27,7 +27,11 @@
   }
 }
 
-.nav-link.active {
+.nav-list__link--active {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--accent-color);
 
   &::after {

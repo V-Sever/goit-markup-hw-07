@@ -8,11 +8,11 @@
   letter-spacing: 0.02em;
 }
 
-.contacts-item:not(:last-child) {
+.contacts-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.contacts-link {
+.contacts-list__link {
   line-height: 2;
 
   display: flex;
@@ -30,7 +30,7 @@
   }
 }
 
-.contact-icon {
+.contact-list__icon {
   fill: currentColor;
   margin-right: 10px;
   margin-bottom: 0;
